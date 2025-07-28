@@ -986,7 +986,7 @@ img {
   color: var(--text-color-light);
 }
 
-.footer_copy{
+.footer__copy{
   color: var(--text-color-light);
   font-size: var(--small-font-size);
   text-align: center;
