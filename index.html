@@ -1,562 +1,751 @@
-<!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
 
-      <!--=============== REMIXICONS ===============-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css"
+      crossorigin=""
+    />
 
-      <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
 
-      <title>Advene Culture</title> 
+    <title>Advene Culture</title>
 
+    <!-- Primary Meta Tags -->
+    <title>Advene Culture</title>
+    <meta name="title" content="Advene Culture" />
+    <meta
+      name="description"
+      content="A creative house by Adwaita & Team exploring design, culture, and visual expression."
+    />
 
-      <!-- Primary Meta Tags -->
-<title>Advene Culture</title>
-<meta name="title" content="Advene Culture" />
-<meta name="description" content="A creative house by Adwaita & Team exploring design, culture, and visual expression." />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://www.flickr.com/photos/203268942@N06/54689759573/in/dateposted-public/"
+    />
+    <meta property="og:title" content="Advene Culture" />
+    <meta
+      property="og:description"
+      content="A creative house by Adwaita & Team exploring design, culture, and visual expression."
+    />
+    <meta
+      property="og:image"
+      content="https://www.flickr.com/photos/203268942@N06/54689759573/in/dateposted-public/"
+    />
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://www.flickr.com/photos/203268942@N06/54689759573/in/dateposted-public/" />
-<meta property="og:title" content="Advene Culture" />
-<meta property="og:description" content="A creative house by Adwaita & Team exploring design, culture, and visual expression." />
-<meta property="og:image" content="https://www.flickr.com/photos/203268942@N06/54689759573/in/dateposted-public/" />
+    <!-- X (Twitter) -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://adveneculture.vercel.app/" />
+    <meta property="twitter:title" content="Advene Culture" />
+    <meta
+      property="twitter:description"
+      content="A creative house by Adwaita & Team exploring design, culture, and visual expression."
+    />
+    <meta
+      property="twitter:image"
+      content="https://www.flickr.com/photos/203268942@N06/54689759573/in/dateposted-public/"
+    />
 
-<!-- X (Twitter) -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="https://adveneculture.vercel.app/" />
-<meta property="twitter:title" content="Advene Culture" />
-<meta property="twitter:description" content="A creative house by Adwaita & Team exploring design, culture, and visual expression." />
-<meta property="twitter:image" content="https://www.flickr.com/photos/203268942@N06/54689759573/in/dateposted-public/" />
+    <!-- Meta Tags Generated with https://metatags.io -->
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <span class="nav__logo-circle">a</span>
+          <span class="nav__logo-name">Advene Cult.</span>
+        </a>
 
-<!-- Meta Tags Generated with https://metatags.io -->
+        <div class="nav__menu" id="nav-menu">
+          <span class="nav__title">Menu</span>
 
+          <h3 class="nav__name">Advene Culture</h3>
 
-   </head>
-   <body>
-      <!--==================== HEADER ====================-->
-      <header class="header" id="header">
-        <nav class="nav container">
-         <a href="#" class="nav__logo">
-            <span class="nav__logo-circle">a</span>
-            <span class="nav__logo-name">Advene Cult.</span>
-         </a>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
 
-         <div class="nav__menu" id="nav-menu">
-            <span class="nav__title">Menu</span>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About Us</a>
+            </li>
 
-            <h3 class="nav__name">Advene Culture</h3>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Services</a>
+            </li>
 
-            <ul class="nav__list">
-                <li class="nav__item">
-                    <a href="#home" class="nav__link active-link">Home</a>
-                </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">Work</a>
+            </li>
 
-                <li class="nav__item">
-                    <a href="#about" class="nav__link">About Us</a>
-                </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link nav__link-button"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
 
-                <li class="nav__item">
-                    <a href="#projects" class="nav__link">Work</a>
-                </li>
+          <!-- Close button-->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
 
-                <li class="nav__item">
-                    <a href="#contact" class="nav__link nav__link-button">Contact Us</a>
-                </li>
+        <div class="nav__buttons">
+          <!-- Theme button -->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+          <!-- Toggle button-->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-4-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <h1 class="home__name">Advene Culture</h1>
+
+          <div class="home__perfil">
+            <div class="home__image">
+              <img
+                src="assets/img/home-perfil.png"
+                alt="image"
+                class="home__img"
+              />
+              <div class="home__shadow"></div>
+
+              <img
+                src="assets/img/curved-arrow.svg"
+                alt=""
+                class="home__arrow"
+              />
+              <img
+                src="assets/img/random-lines.svg"
+                alt=""
+                class="home__line"
+              />
+
+              <div class="geometric-box"></div>
+            </div>
+
+            <div class="home__social">
+              <a
+                href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ=="
+                target="_blank"
+                class="home__social-link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="home__info">
+            <p class="home__description">
+              <b>At AdveneCulture</b>, we offer creative services that elevate
+              brands and leave a lasting impression by building everything --
+              from branding to visuals -- with purpose and passion.
+            </p>
+
+            <a href="#about" class="home__scroll">
+              <div class="home__scroll-box">
+                <i class="ri-arrow-down-s-line"></i>
+              </div>
+
+              <span class="home__scroll-text">Scroll Down</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <h2 class="section__title-1">
+            <span>About Us.</span>
+          </h2>
+
+          <div class="about__perfil">
+            <div class="about__image">
+              <img
+                src="assets/img/about-perfil-02.jpg"
+                alt="image"
+                class="about__img"
+              />
+
+              <div class="about__shadow"></div>
+
+              <div class="geometric-box"></div>
+              <img
+                src="assets/img/random-lines.svg"
+                alt=""
+                class="about__line"
+              />
+              <div class="about__box"></div>
+            </div>
+          </div>
+
+          <div class="about__info">
+            <p class="about__description">
+              <b>AdveneCulture</b> is a youthful and bold media agency focused
+              on <b>Social Media Management and PR solutions.</b>
+              We help local brands turn their stories into standout digital
+              moments — all with strategy, creativity, and vibe.
+            </p>
+
+            <ul class="about__list">
+              <li class="about__item">
+                <b>Founded by Adwaita Patil</b>, a passionate media strategist
+                with a love for storytelling and digital culture.
+              </li>
             </ul>
 
-            <!-- Close button-->
-             <div class="nav__close" id="nav-close">
-               <i class="ri-close-line"></i>
-             </div>
-         </div>
+            <div class="about__buttons">
+              <a href="#contact" class="button">
+                <i class="ri-send-plane-line"></i> Contact Us
+              </a>
 
-         <div class="nav__buttons">
-            <!-- Theme button -->
-             <i class="ri-moon-line change-theme" id="theme-button"></i>
-
-            <!-- Toggle button-->
-             <div class="nav__toggle" id="nav-toggle">
-               <i class="ri-menu-4-line"></i>
-             </div>
-         </div>
-         </nav>
-      </header>
-
-      <!--==================== MAIN ====================-->
-      <main class="main">
-         <!--==================== HOME ====================-->
-         <section class="home section" id="home">
-            <div class="home__container container grid">
-               <h1 class="home__name">
-                  Advene Culture
-               </h1>
-
-               <div class="home__perfil">
-                  <div class="home__image">
-                     <img src="assets/img/home-perfil.png" alt="image" class="home__img">
-                     <div class="home__shadow"></div>
-
-                     <img src="assets/img/curved-arrow.svg" alt="" class="home__arrow">
-                     <img src="assets/img/random-lines.svg" alt="" class="home__line">
-
-                     <div class="geometric-box"></div>
-                  </div>
-
-                  <div class="home__social">
-                     <a href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ==" target="_blank" class="home__social-link">
-                        <i class="ri-instagram-line"></i>
-                     </a>
-                  </div>
-               </div>
-               
-               <div class="home__info">
-                  <p class="home__description">
-                     <b>At AdveneCulture</b>, we offer creative services 
-                     that elevate brands and leave a lasting 
-                     impression by building everything -- from branding to visuals -- 
-                     with purpose and passion.
-                  </p>
-
-                  <a href="#about" class="home__scroll">
-                     <div class="home__scroll-box">
-                        <i class="ri-arrow-down-s-line"></i>
-                     </div>
-
-                     <span class="home__scroll-text">Scroll Down</span>
-                  </a>
-               </div>
+              <a
+                href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ=="
+                target="_blank"
+                class="button__ghost"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
             </div>
-         </section>
+          </div>
+        </div>
+      </section>
 
-         <!--==================== ABOUT ====================-->
-         <section class="about section" id="about">
-            <div class="about__container container grid">
-               <h2 class="section__title-1">
-                  <span>About Us.</span>
-               </h2>
+      <!--==================== SERVICES ====================-->
+      <section class="services section" id="services">
+        <h2 class="section__title-2">
+          <span>Services.</span>
+        </h2>
 
-               <div class="about__perfil">
-                  <div class="about__image">
-                     <img src="assets/img/about-perfil.png" alt="image" class="about__img">
+        <div class="services__container container grid">
+          <article class="services__card">
+            <div class="services__border"></div>
 
-                     <div class="about__shadow"></div>
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-window-line"></i>
+              </div>
 
-                     <div class="geometric-box"></div>
-                     <img src="assets/img/random-lines.svg" alt="" class="about__line">
-                     <div class="about__box"></div>
-                  </div>
-               </div>
+              <h2 class="services__title">Website Development</h2>
 
-               <div class="about__info">
-                  <p class="about__description">
-                     <b>AdveneCulture</b> is a youthful and bold media agency focused on <b>Social Media Management and PR solutions.</b>
-                     We help local brands turn their stories into standout digital moments — all with strategy, creativity, and vibe.
-                  </p>
-
-                  <ul class="about__list">
-                     <li class="about__item">
-                         <b>Founded by Adwaita Patil</b>, a passionate media strategist with a love for storytelling and digital culture.
-                     </li>
-                  </ul>
-
-                  <div class="about__buttons">
-                     <a href="#contact" class="button">
-                        <i class="ri-send-plane-line"></i> Contact Us
-                     </a>
-
-                     <a href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ==" target="_blank" class="button__ghost">
-                        <i class="ri-instagram-line"></i>
-                     </a>
-                  </div>
-               </div>
+              <p class="services__description">
+                Building responsive, modern, and high-performing websites that
+                represent your brand perfectly and provide a seamless user
+                experience.
+              </p>
             </div>
-         </section>
+          </article>
 
-         <!--==================== SERVICES ====================-->
-         <section class="services section">
+          <article class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-share-line"></i>
+              </div>
+
+              <h2 class="services__title">Social Media Management</h2>
+
+              <p class="services__description">
+                Strategically managing and growing your brand's presence on
+                platforms like Instagram and Facebook — from content planning to
+                posting and engagement.
+              </p>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-megaphone-line"></i>
+              </div>
+
+              <h2 class="services__title">PR & Digital Strategy</h2>
+
+              <p class="services__description">
+                Building brand value through public relations, digital
+                storytelling, influencer outreach, and campaign strategy — all
+                tailored to your audience.
+              </p>
+            </div>
+          </article>
+
+          <article class="services__card">
+            <div class="services__border"></div>
+
+            <div class="services__content">
+              <div class="services__icon">
+                <div class="services__box"></div>
+                <i class="ri-image-edit-line"></i>
+              </div>
+
+              <h2 class="services__title">Creative Content Production</h2>
+
+              <p class="services__description">
+                Designing eye-catching flyers, shooting engaging reels, and
+                capturing product visuals that connect with your audience and
+                boost your online identity.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== Work ====================-->
+      <section class="projects section" id="projects">
+        <h2 class="section__title-1">
+          <span>Work.</span>
+        </h2>
+
+        <div class="projects__container container grid">
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/Hos04.AVIF"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a href="" class="projects__button button">
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Hospitality</h3>
+              <h2 class="projects__title">Ambient Lighting & Decor</h2>
+
+              <p class="projects__description">
+                Photography focused on mood, atmosphere, and interior aesthetics
+                of curated hospitality spaces.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ=="
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-instagram-line"></i> View
+              </a>
+
+              <a
+                href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ=="
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-behance-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/Dr04.JPG"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a href="" class="projects__button button">
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Drink</h3>
+              <h2 class="projects__title">Signature Cocktails Showcase</h2>
+
+              <p class="projects__description">
+                A drink photography project capturing the texture, color, and
+                presentation of handcrafted cocktails.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ=="
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-instagram-line"></i> View
+              </a>
+
+              <a
+                href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ=="
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-behance-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/Food02.JPG"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a href="" class="projects__button button">
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Food</h3>
+              <h2 class="projects__title">Plated Elegance</h2>
+
+              <p class="projects__description">
+                Showcasing high-end culinary plating and details, highlighting
+                gourmet dishes through clean compositions.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ=="
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-instagram-line"></i> View
+              </a>
+
+              <a
+                href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ=="
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-behance-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/Pro01.PNG"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a href="" class="projects__button button">
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Product</h3>
+              <h2 class="projects__title">Minimal Product Displays</h2>
+
+              <p class="projects__description">
+                Creative product shots designed for brand presentation,
+                emphasizing packaging, lighting, and clarity.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ=="
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-instagram-line"></i> View
+              </a>
+
+              <a
+                href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ=="
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-behance-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/Peop01.AVIF"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a href="" class="projects__button button">
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">People</h3>
+              <h2 class="projects__title">Expressions & Presence</h2>
+
+              <p class="projects__description">
+                A visual narrative project portraying moods, personalities, and
+                brand personas through portraits.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ=="
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-instagram-line"></i> View
+              </a>
+
+              <a
+                href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ=="
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-behance-line"></i> View
+              </a>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <div class="projects__image">
+              <img
+                src="assets/img/Ven01.AVIF"
+                alt="image"
+                class="projects__img"
+              />
+
+              <a href="" class="projects__button button">
+                <i class="ri-arrow-right-up-line"></i>
+              </a>
+            </div>
+
+            <div class="projects__content">
+              <h3 class="projects__subtitle">Venue</h3>
+              <h2 class="projects__title">Spaces That Speak</h2>
+
+              <p class="projects__description">
+                Exploring space design and visual storytelling with attention to
+                composition, color, and atmosphere.
+              </p>
+            </div>
+
+            <div class="projects__buttons">
+              <a
+                href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ=="
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-instagram-line"></i> View
+              </a>
+
+              <a
+                href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ=="
+                target="_blank"
+                class="projects__link"
+              >
+                <i class="ri-behance-line"></i> View
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <div class="contact__container grid">
+          <div class="contact__data">
             <h2 class="section__title-2">
-               <span>Services.</span>
+              <span>Contact Us.</span>
             </h2>
 
-            <div class="services__container container grid">
-               <article class="services__card">
-                  <div class="services__border"></div>
+            <p class="contact__description-1">
+              Have a project in mind or just want to say hi? Drop us a message
+              and we'll get back to you as soon as possible.
+            </p>
 
-                  <div class="services__content">
-                     <div class="services__icon">
-                        <div class="services__box"></div>
-                        <i class="ri-share-line"></i>
-                     </div>
+            <p class="contact__description-2">
+              We just need your <b>Name</b> and <b>Email Address</b>—no spam,
+              only real conversations.
+            </p>
 
-                     <h2 class="services__title">Social Media Management</h2>
+            <div class="geometric-box"></div>
+          </div>
 
-                     <p class="services__description">
-                        Strategically managing and growing your brand's 
-                        presence on platforms like Instagram and Facebook — from 
-                        content planning to posting and engagement.
-                     </p>
-                  </div>
-               </article>
+          <div class="contact__mail">
+            <h2 class="contact__title">Send Us a Message</h2>
 
-               <article class="services__card">
-                  <div class="services__border"></div>
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__group">
+                <div class="contact__box">
+                  <input
+                    type="text"
+                    name="user_name"
+                    class="contact__input"
+                    id="name"
+                    required
+                    placeholder="First Name"
+                  />
+                  <label for="name" class="contact__label">First Name</label>
+                </div>
 
-                  <div class="services__content">
-                     <div class="services__icon">
-                        <div class="services__box"></div>
-                           <i class="ri-megaphone-line"></i>
-                     </div>
+                <div class="contact__box">
+                  <input
+                    type="email"
+                    name="user_email"
+                    class="contact__input"
+                    id="email"
+                    required
+                    placeholder="Email Address"
+                  />
+                  <label for="email" class="contact__label"
+                    >Email Address</label
+                  >
+                </div>
+              </div>
 
-                     <h2 class="services__title">PR & Digital Strategy</h2>
+              <div class="contact__box">
+                <input
+                  type="text"
+                  name="user_subject"
+                  class="contact__input"
+                  id="subject"
+                  required
+                  placeholder="Subject"
+                />
+                <label for="subject" class="contact__label">Subject</label>
+              </div>
 
-                     <p class="services__description">
-                        Building brand value through public relations, digital storytelling, 
-                        influencer outreach, and campaign strategy — 
-                        all tailored to your audience.
-                     </p>
-                  </div>
-               </article>
+              <div class="contact__box contact__area">
+                <textarea
+                  name="user_message"
+                  id="message"
+                  class="contact__input"
+                  required
+                  placeholder="Message"
+                ></textarea>
+                <label for="message" class="contact__label">Message</label>
+              </div>
 
-               <article class="services__card">
-                  <div class="services__border"></div>
+              <p class="contact__message" id="contact-message"></p>
 
-                  <div class="services__content">
-                     <div class="services__icon">
-                        <div class="services__box"></div>
-                           <i class="ri-image-edit-line"></i>
-                     </div>
+              <button type="submit" class="contact__button button">
+                <i class="ri-send-plane-line"></i> Send Message
+              </button>
+            </form>
+          </div>
 
-                     <h2 class="services__title">Creative Content Production</h2>
+          <div class="contact__social">
+            <img
+              src="assets/img/curved-arrow.svg"
+              alt=""
+              class="contact__social-arrow"
+            />
 
-                     <p class="services__description">
-                        Designing eye-catching flyers, shooting engaging reels, 
-                        and capturing product visuals that connect with your audience 
-                        and boost your online identity.
-                     </p>
-                  </div>
-               </article>
+            <div class="contact__social-data">
+              <div>
+                <p class="contact__social-description-1">
+                  Not an email person?
+                </p>
+
+                <p class="contact__social-description-2">
+                  Write us on our social media platforms instead.
+                </p>
+              </div>
+
+              <div class="contact__social-links">
+                <a
+                  href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ=="
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-instagram-line"></i>
+                </a>
+
+                <a
+                  href="https://wa.me/9923200206"
+                  target="_blank"
+                  class="contact__social-link"
+                >
+                  <i class="ri-whatsapp-line"></i>
+                </a>
+              </div>
             </div>
-         </section>
+          </div>
+        </div>
+      </section>
+    </main>
 
-         <!--==================== Work ====================-->
-         <section class="projects section" id="projects">
-            <h2 class="section__title-1">
-               <span>Work.</span>
-            </h2>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <ul class="footer__links">
+          <li>
+            <a href="#home" class="footer__link">Home</a>
+          </li>
 
-            <div class="projects__container container grid">
-               <article class="projects__card">
-                  <div class="projects__image">
-                     <img src="assets/img/Hos04.AVIF" alt="image" class="projects__img">
+          <li>
+            <a href="#about" class="footer__link">About Us</a>
+          </li>
 
-                     <a href="" class="projects__button button">
-                        <i class="ri-arrow-right-up-line"></i>
-                     </a>
-                  </div>
+          <li>
+            <a href="#services" class="footer__link">Services</a>
+          </li>
 
-                  <div class="projects__content">
-                     <h3 class="projects__subtitle">Hospitality</h3>
-                     <h2 class="projects__title">Ambient Lighting & Decor</h2>
+          <li>
+            <a href="#projects" class="footer__link">Work</a>
+          </li>
+        </ul>
 
-                     <p class="projects__description">
-                        Photography focused on mood, atmosphere, 
-                        and interior aesthetics of curated hospitality spaces.
-                     </p>
-                  </div>
+        <span class="footer__copy">
+          &#169; All Rights Reserved By
+          <a href="">AdveneCulture.</a>
+        </span>
+      </div>
+    </footer>
 
-                  <div class="projects__buttons">
-                     <a href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ==" target="_blank" class="projects__link">
-                        <i class="ri-instagram-line"></i> View
-                     </a>
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-s-line"></i>
+    </a>
 
-                     <a href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ==" target="_blank" class="projects__link">
-                        <i class="ri-behance-line"></i> View
-                     </a>
-                  </div>
-               </article>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
 
-               <article class="projects__card">
-                  <div class="projects__image">
-                     <img src="assets/img/Dr04.JPG" alt="image" class="projects__img">
-
-                     <a href="" class="projects__button button">
-                        <i class="ri-arrow-right-up-line"></i>
-                     </a>
-                  </div>
-
-                  <div class="projects__content">
-                     <h3 class="projects__subtitle">Drink</h3>
-                     <h2 class="projects__title">Signature Cocktails Showcase</h2>
-
-                     <p class="projects__description">
-                        A drink photography project capturing the texture, 
-                        color, and presentation of handcrafted cocktails.
-                     </p>
-                  </div>
-
-                  <div class="projects__buttons">
-                     <a href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ==" target="_blank" class="projects__link">
-                        <i class="ri-instagram-line"></i> View
-                     </a>
-
-                     <a href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ==" target="_blank" class="projects__link">
-                        <i class="ri-behance-line"></i> View
-                     </a>
-                  </div>
-               </article>
-
-               <article class="projects__card">
-                  <div class="projects__image">
-                     <img src="assets/img/Food02.JPG" alt="image" class="projects__img">
-
-                     <a href="" class="projects__button button">
-                        <i class="ri-arrow-right-up-line"></i>
-                     </a>
-                  </div>
-
-                  <div class="projects__content">
-                     <h3 class="projects__subtitle">Food</h3>
-                     <h2 class="projects__title">Plated Elegance</h2>
-
-                     <p class="projects__description">
-                        Showcasing high-end culinary plating and details, 
-                        highlighting gourmet dishes through clean compositions.
-                     </p>
-                  </div>
-
-                  <div class="projects__buttons">
-                     <a href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ==" target="_blank" class="projects__link">
-                        <i class="ri-instagram-line"></i> View
-                     </a>
-
-                     <a href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ==" target="_blank" class="projects__link">
-                        <i class="ri-behance-line"></i> View
-                     </a>
-                  </div>
-               </article>
-
-               <article class="projects__card">
-                  <div class="projects__image">
-                     <img src="assets/img/Pro01.PNG" alt="image" class="projects__img">
-
-                     <a href="" class="projects__button button">
-                        <i class="ri-arrow-right-up-line"></i>
-                     </a>
-                  </div>
-
-                  <div class="projects__content">
-                     <h3 class="projects__subtitle">Product</h3>
-                     <h2 class="projects__title">Minimal Product Displays</h2>
-
-                     <p class="projects__description">
-                        Creative product shots designed for brand presentation, 
-                        emphasizing packaging, lighting, and clarity.
-                     </p>
-                  </div>
-
-                  <div class="projects__buttons">
-                     <a href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ==" target="_blank" class="projects__link">
-                        <i class="ri-instagram-line"></i> View
-                     </a>
-
-                     <a href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ==" target="_blank" class="projects__link">
-                        <i class="ri-behance-line"></i> View
-                     </a>
-                  </div>
-               </article>
-
-               <article class="projects__card">
-                  <div class="projects__image">
-                     <img src="assets/img/Peop01.AVIF" alt="image" class="projects__img">
-
-                     <a href="" class="projects__button button">
-                        <i class="ri-arrow-right-up-line"></i>
-                     </a>
-                  </div>
-
-                  <div class="projects__content">
-                     <h3 class="projects__subtitle">People</h3>
-                     <h2 class="projects__title">Expressions & Presence</h2>
-
-                     <p class="projects__description">
-                        A visual narrative project portraying moods, 
-                        personalities, and brand personas through portraits.
-                     </p>
-                  </div>
-
-                  <div class="projects__buttons">
-                     <a href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ==" target="_blank" class="projects__link">
-                        <i class="ri-instagram-line"></i> View
-                     </a>
-
-                     <a href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ==" target="_blank" class="projects__link">
-                        <i class="ri-behance-line"></i> View
-                     </a>
-                  </div>
-               </article>
-
-               <article class="projects__card">
-                  <div class="projects__image">
-                     <img src="assets/img/Ven01.AVIF" alt="image" class="projects__img">
-
-                     <a href="" class="projects__button button">
-                        <i class="ri-arrow-right-up-line"></i>
-                     </a>
-                  </div>
-
-                  <div class="projects__content">
-                     <h3 class="projects__subtitle">Venue</h3>
-                     <h2 class="projects__title">Spaces That Speak</h2>
-
-                     <p class="projects__description">
-                        Exploring space design and visual storytelling with attention 
-                        to composition, color, and atmosphere.
-                     </p>
-                  </div>
-
-                  <div class="projects__buttons">
-                     <a href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ==" target="_blank" class="projects__link">
-                        <i class="ri-instagram-line"></i> View
-                     </a>
-
-                     <a href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ==" target="_blank" class="projects__link">
-                        <i class="ri-behance-line"></i> View
-                     </a>
-                  </div>
-               </article>
-            </div>
-         </section>
-
-         <!--==================== CONTACT ====================-->
-         <section class="contact section" id="contact">
-            <div class="contact__container grid">
-               <div class="contact__data">
-                  <h2 class="section__title-2">
-                     <span>Contact Us.</span>
-                  </h2>
-
-                  <p class="contact__description-1">
-                     Have a project in mind or just want to say hi?
-                     Drop us a message and we'll get back to you as soon as possible.
-                  </p>
-
-                  <p class="contact__description-2">
-                     We just need your <b>Name</b> and <b>Email Address</b>—no spam, 
-                     only real conversations.
-                  </p>
-
-                  <div class="geometric-box"></div>
-               </div>
-
-               <div class="contact__mail">
-                  <h2 class="contact__title">
-                     Send Us a Message
-                  </h2>
-
-                  <form action="" class="contact__form" id="contact-form">
-                     <div class="contact__group">
-                        <div class="contact__box">
-                           <input type="text" name="user_name" class="contact__input" id="name" required placeholder="First Name">
-                           <label for="name" class="contact__label">First Name</label>
-                        </div>
-
-                        <div class="contact__box">
-                           <input type="email" name="user_email" class="contact__input" id="email" required placeholder="Email Address">
-                           <label for="email" class="contact__label">Email Address</label>
-                        </div>
-                     </div>
-
-                     <div class="contact__box">
-                           <input type="text" name="user_subject" class="contact__input" id="subject" required placeholder="Subject">
-                           <label for="subject" class="contact__label">Subject</label>
-                        </div>
-
-                     <div class="contact__box contact__area">
-                           <textarea name="user_message" id="message" class="contact__input" required placeholder="Message"></textarea>
-                           <label for="message" class="contact__label">Message</label>
-                        </div> 
-
-                        <p class="contact__message" id="contact-message"></p>
-                        
-                        <button type="submit" class="contact__button button">
-                           <i class="ri-send-plane-line"></i> Send Message
-                        </button>
-                  </form>
-               </div>
-
-               <div class="contact__social">
-                  <img src="assets/img/curved-arrow.svg" alt="" class="contact__social-arrow">
-
-                  <div class="contact__social-data">
-                     <div>
-                        <p class="contact__social-description-1">
-                           Not an email person?
-                        </p>
-
-                        <p class="contact__social-description-2">
-                           Write us on our social media platforms instead.
-                        </p>
-                     </div>
-
-                     <div class="contact__social-links">
-                        <a href="https://www.instagram.com/adveneculture?igsh=MWlzaGxrNTlrdzRmYQ==" target="_blank" class="contact__social-link">
-                           <i class="ri-instagram-line"></i>
-                        </a>
-
-                        <a href="https://wa.me/9923200206" target="_blank" class="contact__social-link">
-                           <i class="ri-whatsapp-line"></i>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </section>
-      </main>
-
-      <!--==================== FOOTER ====================-->
-      <footer class="footer">
-         <div class="footer__container container grid">
-            <ul class="footer__links">
-               <li>
-                  <a href="#home" class="footer__link">Home</a>
-               </li>
-
-               <li>
-                  <a href="#about" class="footer__link">About Us</a>
-               </li>
-
-               <li>
-                  <a href="#work" class="footer__link">Work</a>
-               </li>
-            </ul>
-
-            <span class="footer__copy">
-               &#169; All Rights Reserved By
-               <a href="">AdveneCulture.</a>
-            </span>
-         </div>
-      </footer>
-
-      <!--========== SCROLL UP ==========-->
-      <a href="#" class="scrollup" id="scroll-up">
-         <i class="ri-arrow-up-s-line"></i>
-      </a>
-
-      <!--=============== SCROLLREVEAL ===============-->
-      <script src="assets/js/scrollreveal.min.js"></script>
-      
-      <!--=============== EMAIL JS ===============-->
-      <script
-         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-      </script>
-      <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
-   </body>
+    <!--=============== EMAIL JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
